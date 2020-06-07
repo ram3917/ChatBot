@@ -216,7 +216,7 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
     }
     
     // Instantiate chatbot on stack
-    ChatBot cb = ChatBot("/home/rama/Documents/CppND-Memory-Management-Chatbot-master/images/chatbot.png");
+    ChatBot cb = ChatBot("../images/chatbot.png");
     cb.SetChatLogicHandle(this);
     SetChatbotHandle(&cb);
 
